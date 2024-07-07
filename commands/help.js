@@ -11,7 +11,7 @@ module.exports = {
     async execute(interaction) {
         const user = interaction.user;
         const question = interaction.options.getString('question');
-        const helpChannelId = '1258352546368585799';
+        const helpChannelId = '1259524367507787837';
         const helpChannel = interaction.guild.channels.cache.get(helpChannelId);
 
         if (!helpChannel || helpChannel.type !== ChannelType.GuildText) {
